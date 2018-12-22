@@ -1,4 +1,11 @@
-Math.round(7.4); //7
-Math.floor(7.8); //7
-Math.ceil(7.3); //8
-Math.max(2, 5, 9, 6) //9
+/*var myString = "I'm a \"fun\" ninja string"; 
+
+if (myString.indexOf("ninja")===-1){
+    console.log("the world ninja is not in the string");
+}else{
+    console.log("the word ninja starst at position " +
+    myString.indexOf("ninja"))
+}*/
+var string1 = "abc";
+var string2 = "ABC";
+console.log(string1.toLowerCase()===string2.toLowerCase());
