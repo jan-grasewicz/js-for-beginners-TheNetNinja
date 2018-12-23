@@ -1,11 +1,12 @@
-var myArray=[];
-MyArray[0] = 25;
-MyArray[1] = true;
-//=
-var myArray=[25,true];
-//=
-var myArray= new Array(5); // array with 5 slots
+/*var myCar= new Car();
+myCar.lenght;
+myCar.maxspeed;
+myCar.drive();*/
 
-myArray.lenght; //2
-myArray.sort();
-myArray.reverse();
+var myString=new String();
+myString="hello";
+//=
+//var myString="hello";
+console.log(myString);
+myString.length;
+console.log(myString.length);
