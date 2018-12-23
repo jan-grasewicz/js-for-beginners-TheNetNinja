@@ -1,18 +1,7 @@
-document.getElementsByClassName("content");
-var myContentDivs = document.getElementsByClassName("content");
-var myA = myContentDivs[1].getElementsByTagName("a");
-myA[2].innerHTML="change";
-document.getElementById("thelink").textContent="chchchchch";
+var title = document.getElementById("page-title");
+title.setAttribute("style","position: relative;");
+title.setAttribute("style","position: relative; left: 10px;");
 
-
-var link = document.getElementById("linkid");
-console.log(link.getAttribute("class"));
-
-//link.setAttribute("class","pie");
-//console.log(link.getAttribute("class"));
-// =
-link.className = "pie";
-console.log(link.className);
-
-link.setAttribute("alt","new attribute"); //completely new attribute
-console.log(link.getAttribute("alt"));
+title.style.left = "20px"
+title.style.top = "10px"
+title.style.backgroundColor = "blue" // not "background-color" like in CSS
