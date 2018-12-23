@@ -1,8 +1,15 @@
-var title = document.getElementById("page-title");
-title.onclick = function(){
-    alert("you clicked me");
+var content= document.getElementById("content");
+var button=document.getElementById("show-more");
+
+button.onclick=function(){
+    if(content.className=="open"){
+        //shrink the box
+        button.innerHTML="Show More";
+        content.className="";
+        
+    }else{
+        //expand the box
+        content.className="open";
+        button.innerHTML="Show Less";
+    }
 };
-title.onmouseover=function(){
-    alert("you hoverd over me")
-};
-addEventListener() // just a mention
