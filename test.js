@@ -1,12 +1,23 @@
-/*var myCar= new Car();
-myCar.lenght;
-myCar.maxspeed;
-myCar.drive();*/
+/*
+var myCar=new Object();
+myCar.maxSpeed=50;
+myCar.driver="John";
+myCar.drive=function(){console.log("now driving");};
 
-var myString=new String();
-myString="hello";
-//=
-//var myString="hello";
-console.log(myString);
-myString.length;
-console.log(myString.length);
+// =
+
+var myCar2={
+    maxSpeed:70, 
+    driver:"Johnny", 
+    drive:function(){console.log("now driving again");
+    }
+};
+*/
+var myCar={
+    maxSpeed:70, 
+    driver:"Johnny", 
+    drive:function(speed, time){console.log("distance traveled = "+speed*time)
+    }
+};
+
+myCar.drive(50,3);
